@@ -3,7 +3,7 @@ package pages;
 import io.trueautomation.client.driver.FindByTA;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.How;
+
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
@@ -11,7 +11,7 @@ public class HomePage {
 
     String baseURL = "https://trueautomation.io";
 
-    @FindByTA(taName="trueautomationio:homePage:loginBtn", how = How.CSS, using = "a.login-btn")
+    @FindByTA(taName="ta:homePage:loginBtn", css = "a.login-btn")
     public WebElement loginBtn;
 
     public HomePage(WebDriver driver) {

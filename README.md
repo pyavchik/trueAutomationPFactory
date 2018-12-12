@@ -13,9 +13,8 @@ Run command to initialize your project
 trueautomation init
 ```
 
-TO RUN TEST with appium Android (appium should be installed and started)
+TO RUN TEST:  
 
 ```bash
 mvn clean test
 ```
-
